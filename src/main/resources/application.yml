@@ -1,0 +1,20 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: zjp_student@163.com
+    password: GNNAQEBWNSXNMBRZ
+  datasource:
+    url: jdbc:mysql://localhost:3306/jpa
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: localhost
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
